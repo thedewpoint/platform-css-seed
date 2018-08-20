@@ -1,0 +1,16 @@
+{
+  "name": "css-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/gbs.css",
+  "scripts": {
+    "build": "npm run build:ca | npm run build:uk",
+    "build:ca": "parcel css/ca.css",
+    "build:uk": "parcel css/uk.css"
+  },
+  "author": "DJ",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
+}

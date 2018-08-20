@@ -1,0 +1,8 @@
+
+@import './common.css';
+.test{
+    color: green;
+}
+.testimg {
+    background-image: url("../images/theoffice.jpg")
+}
